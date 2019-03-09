@@ -33,37 +33,8 @@ class App extends Component {
 
     chars.sort(() => Math.random() - 0.5);
     //let clickedChars = this.state.clickedChars;
+}
 
-    // if (clickedChars.includes(id)) {
-    //   this.setState({ clickedChars: [], score: 0, status: "Game Over!" });
-    //   return;
-    // } else {
-    //   clickedChars.push(id)
-
-    //   if (clickedChars.length === 9) {
-    //     this.setState({ score: 9, status: "Winner,Winner,Winner", clickedChars: [] });
-    //     console.log('You Win');
-    //     return;
-    //   }
-
-    //   this.setState({ chars, clickedChars, score: clickedChars.length, status: " " });
-
-    //   for (let i = chars.length - 1; i > 0; i--) {
-    //     let j = Math.floor(Math.random() * (i + 1));
-    //     [chars[i], chars[j]] = [chars[j], chars[i]];
-    //   }
-    // }
-
-
-  }
-
-  // I wanted to use this method. I could get the score to go up but i couldnt figure out the loop and conditonals//
-  //   shuffleScoreCard = id => {
-
-  //     chars.sort(() => Math.random() - 0.5);
-
-  //     this.setState({ chars, score:   this.state.score +1 });
-  // };
 
   render() {
     return (
